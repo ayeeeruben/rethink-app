@@ -323,6 +323,7 @@
 
     <string name="apps_info_title" translatable="true">Apps</string>
 
+
     <string name="hybrid_mode_info_title" translatable="true">DNS + Firewall</string>
 
     <string name="dns_mode_info_explanation_new" translatable="true">Monitor, block, and encrypt DNS requests.</string>
@@ -725,6 +726,8 @@
     <string name="firewall_status_block_metered" translatable="true">blocked on metered (mobile) networks</string>
     <string name="firewall_status_blocked" translatable="true">blocked</string>
     <string name="firewall_status_unknown" translatable="true">unknown</string>
+    <string name="app_id_package" translatable="false">UID: %1$d - %2$s</string>
+
 
     <!--Connection tracker bottom sheet -->
     <string name="ct_bs_app_info_error" translatable="true">App Info not found</string>
