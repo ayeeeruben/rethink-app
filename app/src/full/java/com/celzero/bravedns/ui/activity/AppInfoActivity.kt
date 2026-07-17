@@ -205,7 +205,7 @@ class AppInfoActivity : BaseActivity(R.layout.activity_app_details) {
                 this.appInfo = appInfo
 
                 b.aadAppDetailName.text = appName(packages.count())
-                b.aadPkgName.text = appInfo.packageName
+                b.aadPkgName.text = getString(R.string.app_id_package, appInfo.uid, appInfo.packageName)
                 b.excludeProxySwitch.isChecked = appInfo.isProxyExcluded
                 
                 // Set temporary allow toggle state
