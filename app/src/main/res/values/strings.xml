@@ -1139,6 +1139,7 @@
     <!-- Firewall -->
     <string name="fapps_filter_filter_heading" translatable="true">Type</string>
     <string name="fapps_filter_categories_heading" translatable="true">Categories</string>
+    <string name="fapps_filter_sort_heading">Sort by</string>
 
     <string name="fapps_filter_clear_btn" translatable="true">Clear</string>
 
@@ -1357,6 +1358,11 @@
     <string name="category_name_others" translatable="true">Other</string>
     <string name="category_name_non_app_sys" translatable="true">System Services</string>
     <string name="category_name_installed" translatable="true">Installed Apps</string>
+
+    <!-- Sort constants -->
+    <string name="fapps_filter_sort_name">Name</string>
+    <string name="fapps_filter_sort_package">Package name</string>
+    <string name="fapps_filter_sort_uid">UID</string>
 
     <!-- Build flavor constants -->
     <string name="build__flavor_website" translatable="true">website</string>
